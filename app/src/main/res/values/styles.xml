@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme strictly enforcing Material 3 Expressive -->
+    <style name="Base.Theme.BluetoothDeviceFinder" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Optional fallbacks if DynamicColors fails to load on older devices -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Enforce Material 3 styling on preferences (Settings Screen) -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <style name="Theme.BluetoothDeviceFinder" parent="Base.Theme.BluetoothDeviceFinder" />
+
+    <style name="Widget.App.AppBarLayoutPrimary" parent="Widget.Material3.Toolbar.Surface">
+        <item name="titleTextColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="CustomToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

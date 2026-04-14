@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- backup_descriptor.xml -->
+<!-- Location: app/src/main/res/xml/backup_descriptor.xml -->
+
+<full-backup-content>
+    <include domain="sharedpref" path="." />
+    <include domain="database" path="." />
+    <include domain="file" path="." />
+    <exclude domain="sharedpref" path="device_file" />
+</full-backup-content>

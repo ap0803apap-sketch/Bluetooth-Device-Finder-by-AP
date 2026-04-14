@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings.xml -->
+<!-- Location: app/src/main/res/values/strings.xml -->
+
+<resources>
+    <string name="app_name">Bluetooth Device Finder by AP</string>
+
+    <!-- Main Activity -->
+    <string name="scan_button_text">Scan Devices</string>
+    <string name="scanning">Scanning...</string>
+    <string name="clear_button_text">Clear List</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="signal_not_available">No signal detected</string>
+    <string name="signal_format">%1$d dBm (%2$d%%)</string>
+    <string name="nearby_devices">Nearby Devices</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="choose_theme">Choose your preferred theme</string>
+    <string name="amoled_mode">AMOLED Dark Mode</string>
+    <string name="amoled_description">Use pure black background (requires restart)</string>
+    <string name="dynamic_color">Dynamic Color</string>
+    <string name="dynamic_color_description">Material You color adaptation</string>
+    <string name="about">About</string>
+    <string name="contact_developer">Contact Developer</string>
+    <string name="view_source">View Source Code</string>
+    <string name="github_url">https://github.com/ap0803apap-sketch</string>
+    <string name="version">Version</string>
+
+    <!-- Array items -->
+    <string-array name="theme_entries">
+        <item>System Default</item>
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Error Messages -->
+    <string name="bluetooth_not_available">Bluetooth not available</string>
+    <string name="bluetooth_disabled">Please enable Bluetooth</string>
+    <string name="permissions_required">Permissions required for scanning</string>
+
+</resources>

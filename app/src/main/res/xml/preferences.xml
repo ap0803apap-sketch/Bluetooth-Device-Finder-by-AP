@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- preferences.xml -->
+<!-- Location: app/src/main/res/xml/preferences.xml -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Theme Section -->
+    <PreferenceCategory
+        android:title="@string/appearance"
+        android:key="appearance_category"
+        app:iconSpaceReserved="true"
+        android:icon="@drawable/ic_appearance">
+
+        <ListPreference
+            android:key="theme_mode"
+            android:title="@string/theme"
+            android:summary="@string/choose_theme"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="0"
+            android:icon="@drawable/ic_palette" />
+
+        <SwitchPreferenceCompat
+            android:key="amoled_mode"
+            android:title="@string/amoled_mode"
+            android:summary="@string/amoled_description"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_dark_mode" />
+
+        <SwitchPreferenceCompat
+            android:key="dynamic_color"
+            android:title="@string/dynamic_color"
+            android:summary="@string/dynamic_color_description"
+            android:defaultValue="true"
+            android:icon="@drawable/ic_dynamic_color" />
+
+    </PreferenceCategory>
+
+    <!-- About Section -->
+    <PreferenceCategory
+        android:title="@string/about"
+        android:key="about_category"
+        app:iconSpaceReserved="true"
+        android:icon="@drawable/ic_about">
+
+        <Preference
+            android:key="developer_email"
+            android:title="@string/contact_developer"
+            android:summary="ap.dev@example.com"
+            android:icon="@drawable/ic_baseline_mail_24" />
+
+        <Preference
+            android:key="github_source"
+            android:title="@string/view_source"
+            android:summary="@string/github_url"
+            android:icon="@drawable/ic_baseline_code_24" />
+
+        <Preference
+            android:key="app_version"
+            android:title="@string/version"
+            android:summary="1.0.0"
+            android:selectable="false"
+            android:icon="@drawable/ic_android" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
