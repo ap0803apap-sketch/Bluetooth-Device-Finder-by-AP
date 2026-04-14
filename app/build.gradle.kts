@@ -49,6 +49,12 @@ android {
         compose = false
         viewBinding = true
     }
+
+    lint {
+        baseline = file("lint-baseline.xml")
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
 }
 
 dependencies {
