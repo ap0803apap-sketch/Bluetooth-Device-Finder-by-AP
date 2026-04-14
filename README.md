@@ -22,13 +22,9 @@ Dual Bluetooth Scanning: Scans for both Classic Bluetooth and Bluetooth Low Ener
 
 📱 Screenshots
 
-(Add your screenshots here by replacing the placeholder links)
+<img width="250" height="500" alt="Screenshot_20260414_094010_Bluetooth Device Finder by AP" src="https://github.com/user-attachments/assets/3aedbd83-2c02-496e-b0be-a6920462b38a" />
+<img width="250" height="500" alt="Screenshot_20260414_094020_Bluetooth Device Finder by AP" src="https://github.com/user-attachments/assets/516cf946-2c84-45e8-aad2-85c8195b76fd" />
 
-<img src="link_to_main_screen.png" width="250">
-
-<img src="link_to_tracking_screen.png" width="250">
-
-<img src="link_to_settings_screen.png" width="250">
 
 Main Scanner
 
